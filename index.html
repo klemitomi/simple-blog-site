@@ -8,28 +8,13 @@
 </head>
 <body>
 <div class="container mt-4">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <h1 class="mb-4">Legújabb Blogposztok</h1>
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Blogposzt címe</h5>
-                    <p class="card-text">Ez egy rövid bevezető a blogposzt tartalmáról...</p>
-                    <button class="btn btn-outline-primary">Szerkesztés</button>
-                    <button class="btn btn-outline-danger">Törlés</button>
-                </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1 class="mb-4 text-center ">Legújabb Blogposztok</h1>
+                <div id="post-list"></div>
+                <button class="btn btn-outline-light mt-3" onclick="createPost()">Új bejegyzés</button>
             </div>
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Második blogposzt</h5>
-                    <p class="card-text">Egy másik bejegyzés rövid leírása...</p>
-                    <button class="btn btn-outline-primary">Szerkesztés</button>
-                    <button class="btn btn-outline-danger">Törlés</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-8 mx-auto">
-            <button class="btn btn-outline-success mt-3">Új bejegyzés</button>
         </div>
     </div>
 </div>
@@ -39,5 +24,6 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
