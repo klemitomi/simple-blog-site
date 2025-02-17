@@ -1,2 +1,2 @@
 # simple-blog-site
-This is a simple blog site
+Develop is a simple blog site
